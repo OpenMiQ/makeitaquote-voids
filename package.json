@@ -17,13 +17,13 @@
     "api",
     "voids"
   ],
-  "homepage": "https://github.com/otnc/makeitaquote-voids#readme",
+  "homepage": "https://github.com/OpenMiQ/makeitaquote-voids#readme",
   "bugs": {
-    "url": "https://github.com/otnc/makeitaquote-voids/issues"
+    "url": "https://github.com/OpenMiQ/makeitaquote-voids/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otnc/makeitaquote-voids.git"
+    "url": "git+https://github.com/OpenMiQ/makeitaquote-voids.git"
   },
   "license": "MIT",
   "author": "otoneko.",
