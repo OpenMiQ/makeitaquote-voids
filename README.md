@@ -2,7 +2,7 @@
 
 Generate "Make it a Quote" images through the Voids API.
 
-[![npm](https://img.shields.io/npm/v/@makeitaquote/voids)](https://www.npmjs.com/package/@makeitaquote/voids) [![CI](https://img.shields.io/github/actions/workflow/status/otnc/makeitaquote-voids/ci.yml?branch=main&label=ci)](https://github.com/otnc/makeitaquote-voids/actions) [![License](https://img.shields.io/github/license/otnc/makeitaquote-voids)](LICENSE) [![Node](https://img.shields.io/node/v/@makeitaquote/voids)](https://www.npmjs.com/package/@makeitaquote/voids) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+[![npm](https://img.shields.io/npm/v/@makeitaquote/voids)](https://www.npmjs.com/package/@makeitaquote/voids) [![CI](https://img.shields.io/github/actions/workflow/status/OpenMiQ/makeitaquote-voids/ci.yml?branch=main&label=ci)](https://github.com/OpenMiQ/makeitaquote-voids/actions) [![License](https://img.shields.io/github/license/OpenMiQ/makeitaquote-voids)](LICENSE) [![Node](https://img.shields.io/node/v/@makeitaquote/voids)](https://www.npmjs.com/package/@makeitaquote/voids) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 Calls the Voids API instead of rendering locally — no native binaries, no fonts, works anywhere Node.js runs.
 
@@ -16,13 +16,13 @@ Calls the Voids API instead of rendering locally — no native binaries, no font
 
 > [!Important]
 >   
-> This package only calls the Voids API — it does not render images locally. If you want local rendering instead (no network dependency, more control over the theme), use `makeitaquote`: https://github.com/otnc/makeitaquote
+> This package only calls the Voids API — it does not render images locally. If you want local rendering instead (no network dependency, more control over the theme), use `makeitaquote`: https://github.com/OpenMiQ/makeitaquote
 >
 > ```sh
 > npm install makeitaquote
 > ```
 >   
-> Prefer a different upstream API instead? [`@makeitaquote/miqx`](https://github.com/otnc/makeitaquote-miqx) does the same thing this package does, through the MiqX API:
+> Prefer a different upstream API instead? [`@makeitaquote/miqx`](https://github.com/OpenMiQ/makeitaquote-miqx) does the same thing this package does, through the MiqX API:
 >
 > ```sh
 > npm install @makeitaquote/miqx
@@ -218,7 +218,7 @@ MiQError
 └─ VoidsApiError      the API refused or failed (.status, .body, .endpoint)
 ```
 
-`MiQError`/`ValidationError` come from [`@makeitaquote/utils`](https://github.com/otnc/makeitaquote-utils) and are shared with `makeitaquote` and `@makeitaquote/miqx` — the same classes, not just the same names:
+`MiQError`/`ValidationError` come from [`@makeitaquote/utils`](https://github.com/OpenMiQ/makeitaquote-utils) and are shared with `makeitaquote` and `@makeitaquote/miqx` — the same classes, not just the same names:
 
 ```ts
 import { MiQError } from 'makeitaquote'
